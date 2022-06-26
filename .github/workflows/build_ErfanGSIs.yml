@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://kmcb4en3khfrmtic4oda756gt1a90uaj620f00q00lvun69c6qivv505.qc.x.bsgslb.cn:10443/xdispatch7598915678e22b82/bigota.d.miui.com/V11.0.1.0.ODARUXM/miui_HM5RUGlobal_V11.0.1.0.ODARUXM_0fe3699e6f_8.1.zip?bsreqid=c9b73d2d8e7040585d3cd055663e3ac4
-  ROM_NAME: MIUI
+  ROM_URL: https://fsopen.coloros.com/3/oppowww/androidrom/r9m/R9m_11_OTA_0510_all_6A1Hi7Iv72qs.zip
+  ROM_NAME: ColorOs
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
 
