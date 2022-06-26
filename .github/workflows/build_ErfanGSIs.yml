@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://bigota.d.miui.com/20.4.27/miui_MIMIX3_20.4.27_8f7879221b_10.0.zip
+  ROM_URL: https://kmcb4en3khfrmtic4oda756gt1a90uaj620f00q00lvun69c6qivv505.qc.x.bsgslb.cn:10443/xdispatch7598915678e22b82/bigota.d.miui.com/V11.0.1.0.ODARUXM/miui_HM5RUGlobal_V11.0.1.0.ODARUXM_0fe3699e6f_8.1.zip?bsreqid=c9b73d2d8e7040585d3cd055663e3ac4
   ROM_NAME: MIUI
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
@@ -61,7 +61,7 @@ jobs:
          run: |
               cd $GITHUB_WORKSPACE/ErfanGSIs/output
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet ./final/GSI.zip
+              ./transfer gof ./final/GSI.zip
 
          
             
